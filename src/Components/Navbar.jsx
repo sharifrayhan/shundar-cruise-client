@@ -1,12 +1,12 @@
 const Navbar = () => {
     return (
         
-        <div>
+        <div className="flex justify-between p-3 z-10 sticky mx-10">
 
-            <img src="https://i.ibb.co/XVxcHJh/logo-white.png" alt="" />
+            <img className="h-10" src="https://i.ibb.co/XVxcHJh/logo-white.png" alt="" />
 
             <div>
-                <ul>
+                <ul className=" flex gap-5">
                     <li>Home</li>
                     <li>Gallery</li>
                     <li>Contact</li>

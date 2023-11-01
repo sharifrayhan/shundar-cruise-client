@@ -7,7 +7,6 @@ import Home from "../Pages/Home";
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <div>Hello world!</div>,
       errorElement: <Rootpage></Rootpage>,
       children: [
         {
