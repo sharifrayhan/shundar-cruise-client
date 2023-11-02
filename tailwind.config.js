@@ -6,7 +6,11 @@ export default {
      ],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        chelsea: 'Chelsea Market'
+      }
+    },
   },
   plugins: [require("daisyui")],
 }

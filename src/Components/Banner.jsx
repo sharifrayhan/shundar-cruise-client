@@ -7,7 +7,7 @@ const Banner = () => {
                 <source src="/src/assets/web.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 flex items-center justify-center">
-                <h1 className="text-white text-4xl font-bold">Welcome to our website!</h1>
+                <h1 className="text-white text-7xl font-chelsea font-bold">Sundarbans</h1>
             </div>
       </div>
     )
